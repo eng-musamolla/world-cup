@@ -72,7 +72,7 @@ body {
     display: flex;
     margin-top: 50px;
     margin-bottom: 100px;
-    gap: 20px px;
+    column-gap: 20px;
 }
 
 #Main_part .left_part {
@@ -109,7 +109,8 @@ body {
 
 #Main_part .right_part {
     display: grid;
-    grid-template-columns: repeat(3 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 #Main_part .Card_image {
@@ -117,8 +118,42 @@ body {
 }
 
 #Main_part .right_part .card {
-    border: solid 1px lightcoral;
+    border: solid 1px #E8E8E8;
     border-radius: 5px;
+}
+
+#right_part {
+    fllex-grow: 1;
+}
+
+#Main_part .right_part .card .card_tex {
+    padding: 20px;
+}
+
+#Main_part .right_part .card .card_tex button {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+#Main_part .right_part .card .card_tex h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#Main_part .right_part .card .card_tex .time {
+    display: flex;
+}
+
+#Main_part .right_part .card .card_tex .time img {
+    margin-right: 5px;
+}
+
+#Main_part .right_part .card .card_tex span {
+    font-size: 30px;
+    margin-right: 30px;
 }
 
 /* Main part End*/
