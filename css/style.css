@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Lobster&family=Manrope&family=Poppins:wght@400;600;700&display=swap');
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+/* Banar part Start  */
+
+#Banner {
+    display: flex;
+    border-radius: 10px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    padding: 0 80px;
+    background-color: #161616;
+    justify-content: space-between;
+
+}
+
+#Banner .text_part {
+    margin: 20px 0 50px 20PX;
+    width: 50%;
+}
+
+
+#Banner .text_part h1 {
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+#Banner .text_part p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#Banner .text_part a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+#Banner .text_part i {
+    margin-left: 10px;
+}
+
+#Banner .image_part img {
+    margin: 20PX 0 0;
+    width: 115%;
+}
+
+/* Banar part End  */
+
+/* Main part Start */
+
+#Main_part {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    gap: 20px px;
+}
+
+#Main_part .left_part {
+    background-color: #161616;
+    height: 225px;
+    width: 225px;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+#Main_part .left_part .left_part_bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#Main_part .left_part_bottom button {
+    width: 180px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border: none;
+
+}
+
+#Main_part .left_part_bottom .blog {
+    background-color: #DD0000;
+    color: #FFFFFF;
+
+}
+
+#Main_part .right_part {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+}
+
+#Main_part .Card_image {
+    width: 100%;
+}
+
+#Main_part .right_part .card {
+    border: solid 1px lightcoral;
+    border-radius: 5px;
+}
+
+/* Main part End*/
