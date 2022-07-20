@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Lobster&family=Manrope&family=Poppins:wght@400;600;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
 
-
-body {
+.container {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #333;
@@ -122,10 +126,6 @@ body {
     border-radius: 5px;
 }
 
-#right_part {
-    fllex-grow: 1;
-}
-
 #Main_part .right_part .card .card_tex {
     padding: 20px;
 }
@@ -152,8 +152,44 @@ body {
 }
 
 #Main_part .right_part .card .card_tex span {
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 30px;
 }
 
 /* Main part End*/
+
+/* footer part Start */
+footer {
+    padding: 50px 0;
+    background-color: #161616;
+    width: 100%;
+}
+
+footer h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    margin: 50px 0;
+    border: none;
+    border-top: 1px solid #FFFFFF;
+}
+
+footer .footer_link {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* footer part End */
